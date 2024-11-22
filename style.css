@@ -1,0 +1,21 @@
+.bar{
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  width: 102%;
+  position: relative;
+  right: 0.5%;
+  display: inline-flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#nav-bar{
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width:768px) {
+  .bar{
+    flex-direction: column;
+    align-items: center;
+  }
+}
